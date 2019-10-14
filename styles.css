@@ -1,0 +1,65 @@
+
+/* Buttons */
+.btn {}
+
+.btn.sz-big {}
+
+.btn.sz-small {}
+
+.btn:hover {}
+
+.btn:active, .btn.active {}
+
+.btn-primary {}
+
+.btn-primary:hover {}
+
+.btn-primary:active, .btn-primary.active {}
+
+.btn-warn {}
+
+.btn-warn:hover {}
+
+.btn-warn:active, .btn-warn.active {}
+
+.btn-error {}
+
+.btn-error:hover {}
+
+.btn-error:active, .btn-error.active {}
+
+.btn-success {}
+
+.btn-success:hover {}
+
+.btn-success:active, .btn-success.active {}
+
+.btn-info {}
+
+.btn-info:hover {}
+
+.btn-info:active, .btn-info.active {}
+
+/* Inputs */
+
+.input {}
+
+.input.sz-big {}
+
+.input.sz-small {}
+
+.input:hover {}
+
+.input:active, .input.active {}
+
+.input-success {}
+
+.input-success:hover {}
+
+.input-success:active, .btn-success.active {}
+
+.input-error {}
+
+.input-error:hover {}
+
+.input-error:active, .btn-error.active {}
