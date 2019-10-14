@@ -118,30 +118,56 @@
     width: 180px;
     height: 30px;
     padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    outline-width: 0px;
 }
 
 .input.sz-big {
     width: 200px;
     height: 40px;
+    font-size: 20px;
 }
 
 .input.sz-small {
     width: 160px;
     height: 20px;
+    font-size: 13px;
 }
 
-.input:hover {}
+.input:hover {
+    box-shadow: 0 0 1px 1px grey;
+}
 
-.input:active, .input.active {}
+.input:active, .input.active {
+    box-shadow: 0 0 2px 2px grey;
+}
 
-.input-success {}
+.input-success {
+    color: rgb(0, 201, 0);
+    border: 1px solid rgb(0, 179, 0);
+}
 
-.input-success:hover {}
+.input-success:hover {
+    box-shadow: 0 0 1px 1px rgb(0, 172, 0);
+}
 
-.input-success:active, .btn-success.active {}
+.input-success:active, .btn-success.active {
+    box-shadow: 0 0 2px 2px rgb(0, 172, 0);
+}
 
-.input-error {}
+.input-error {
+    color: tomato;
+    border: 1px solid red;
+}
 
-.input-error:hover {}
+.input-error:hover {
+    box-shadow: 0 0 1px 1px red;
+}
 
-.input-error:active, .btn-error.active {}
+.input-error:active, .btn-error.active {
+    box-shadow: 0 0 2px 2px red;
+}
