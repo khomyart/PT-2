@@ -1,52 +1,134 @@
+/*
+    background-color
+    border-radius
+    border    
+    box-shadow
+    color
+    font-family
+    font-size
+    line-height
+    outline-width
+    padding
+
+*/
+
 
 /* Buttons */
-.btn {}
+.btn {
+    background-color: rgb(175, 175, 175);
+    height: 40px;
+    width: 130px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline-width: 0px;
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
 
-.btn.sz-big {}
+.btn.sz-big {
+    height: 50px;
+    width: 170px;
+    font-size: 17px;
+}
 
-.btn.sz-small {}
+.btn.sz-small {
+    height: 35px;
+    width: 110px;
+    font-size: 12px;
+}
 
-.btn:hover {}
+.btn:hover {
+    box-shadow: 0 0 1px 1px gray;
+}
 
-.btn:active, .btn.active {}
+.btn:active, .btn.active {
+    box-shadow: 0 0 2px 2px grey;
+}
 
-.btn-primary {}
+.btn-primary {
+    background-color: yellow;
+    border: 2px solid rgb(255, 187, 0);
+}
 
-.btn-primary:hover {}
+.btn-primary:hover {
+    box-shadow: 0 0 1px 1px rgb(255, 187, 0);
+}
 
-.btn-primary:active, .btn-primary.active {}
+.btn-primary:active, .btn-primary.active {
+    box-shadow: 0 0 2px 2px rgb(255, 187, 0);
+}
 
-.btn-warn {}
+.btn-warn {
+    background-color: rgb(255, 187, 0);
+    border: 2px solid tomato;
+}
 
-.btn-warn:hover {}
+.btn-warn:hover {
+    box-shadow: 0 0 1px 1px tomato;
+}
 
-.btn-warn:active, .btn-warn.active {}
+.btn-warn:active, .btn-warn.active {
+    box-shadow: 0 0 2px 2px tomato;
+}
 
-.btn-error {}
+.btn-error {
+    background-color: tomato;
+    border: 2px solid red;
+}
 
-.btn-error:hover {}
+.btn-error:hover {
+    box-shadow: 0 0 1px 1px red;
+}
 
-.btn-error:active, .btn-error.active {}
+.btn-error:active, .btn-error.active {
+    box-shadow: 0 0 2px 2px red;
+}
 
-.btn-success {}
+.btn-success {
+    background-color: rgb(0, 255, 64);
+    border: 2px solid green;
+}
 
-.btn-success:hover {}
+.btn-success:hover {
+    box-shadow: 0 0 1px 1px green;
+}
 
-.btn-success:active, .btn-success.active {}
+.btn-success:active, .btn-success.active {
+    box-shadow: 0 0 2px 2px green;
+}
 
-.btn-info {}
+.btn-info {
+    background-color: rgb(207, 67, 207);
+    border: 2px solid purple;
+}
 
-.btn-info:hover {}
+.btn-info:hover {
+    box-shadow: 0 0 1px 1px purple;
+}
 
-.btn-info:active, .btn-info.active {}
+.btn-info:active, .btn-info.active {
+    box-shadow: 0 0 2px 2px purple;
+}
 
 /* Inputs */
 
-.input {}
+.input {
+    background-color: white;
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+}
 
-.input.sz-big {}
+.input.sz-big {
+    width: 200px;
+    height: 40px;
+}
 
-.input.sz-small {}
+.input.sz-small {
+    width: 160px;
+    height: 20px;
+}
 
 .input:hover {}
 
