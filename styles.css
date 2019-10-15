@@ -17,7 +17,7 @@
 .btn {
     background-color: rgb(175, 175, 175);
     height: 40px;
-    width: 130px;
+    width: 140px;
     border: 2px solid grey;
     border-radius: 5px;
     outline-width: 0px;
@@ -28,7 +28,7 @@
 
 .btn.sz-big {
     height: 50px;
-    width: 170px;
+    width: 200px;
     font-size: 17px;
 }
 
